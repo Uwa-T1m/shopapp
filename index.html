@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../pro/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="home.js"></script>
+    <title>Wizard || Shopping</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="topnav">
+        <div class="logo">
+            <h3><i class="far fa-shopping-cart"></i> Shopper</h3>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="openNav()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <div class="list" id="mySidebar">
+            <a href="../home/index.html" class="active">Home</a>
+            <a href="../about/index.html">About</a>
+            <a href="../sales/index.html">Deals</a>
+            <a href="#contact">Contact</a>
+            <i class="fa fa-times" id="close" onclick="closeNav()"></i>
+        </div>
+    </nav>
+    <!-- Hero -->
+    <section class="hero">
+        <div class="center">
+            <h1>Black Friday Is Finally Here!</h1>
+            <b>
+                <p> Get every product at 10% discount</p>
+            </b>
+            <br>
+            <a href="#black-friday"><button>SHOP NOW</button></a>
+        </div>
+    </section>
+
+    <!-- CATEGORIES OF PRODUCTS-->
+    <section class="categories">
+        <div class="search">
+            <input type="search" placeholder="Search..">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+        <h1 style="padding-left: 16px;">New Today!</h1>
+        <div class="card-holder">
+            <div class="card">
+                <div class="pic">
+                    <img src="../images/woman-dep.jpg" alt="">
+                  <button class="btn"><h3>WOMEN</h3><br> COLLECTION</button>  
+                </div>
+            </div>
+            <div class="card">
+                <div class="pic">
+                    <img src="../images/man.png" alt="">
+                   <button class="btn"><h3>MEN</h3><br> COLLECTION</button> 
+                  
+                </div>
+
+            </div> <div class="card">
+                <div class="pic">
+                    <img src="../images/watch.png" alt="">
+                    <button class="btn"><h3>ACCESSORIES</h3><br> COLLECTION</button>
+                 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLACK FRIDAY DEALS -->
+    <section class="blakfri" id="black-friday">
+        <h1 style="padding-left: 16px;">Black Friday Deals</h1>
+        <br><br>
+<div class="card-hold">
+<div class="cards">
+<div class="img">
+    <img src="../images/products/jeans1.jpg" alt="">
+</div>
+<h4>Rugged Jeans And Sneakers</h4>
+<br>
+<p><strike>$1000.00</strike>    <b>$850.00</b></p>
+<br>
+<div class="btn-holder">
+    <button>Add To Cart</button>
+    <div class="reaction">
+        <button onclick="red()"><i class="far fa-heart" onclick="red()"></i></button>
+        <button><i class="fas fa-share-nodes"></i></button>
+    </div>
+</div>
+</div>
+<div class="cards">
+    <div class="img">
+        <img src="../images/products/jeans2.jpg" alt="">
+        <div class="tag">NEW</div>
+    </div>
+    <h4>Rugged Jeans And Cool Belt</h4>
+    <br>
+    <p><strike>$900.00</strike>    <b>$700.00</b></p>
+<br>
+<div class="btn-holder">
+    <button>Add To Cart</button>
+    <div class="reaction">
+        <button onclick="red()"><i class="far fa-heart" onclick="red()"></i></button>
+        <button><i class="fas fa-share-nodes"></i></button>
+    </div>
+</div>
+</div>
+<div class="cards">
+<div class="img">
+    <img src="../images/products/jeans3.jpg" alt="">
+    <div class="tag" id="closed">SOLD OUT</div>
+</div>
+<h4>Cool Jeans And Cowboy Boot</h4>
+<br>
+<p><strike>$850.00</strike>    <b>$600.00</b></p>
+<br>
+<div class="btn-holder">
+    <button>Add To Cart</button>
+    <div class="reaction">
+        <button onclick="red()"><i class="far fa-heart" onclick="red()"></i></button>
+        <button><i class="fas fa-share-nodes"></i></button>
+    </div>
+</div>
+</div>
+</div>
+
+<div class="card-hold" style="margin-top: 60px;">
+<div class="cards">
+<div class="img">
+    <img src="../images/products/jeans3.jpg" alt="">
+    <div class="tag">NEW</div>
+</div>
+<h4>Rugged Jeans And Sneakers</h4>
+<br>
+<p><strike>$1000.00</strike>    <b>$850.00</b></p>
+<br>
+<div class="btn-holder">
+<button>Add To Cart</button>
+<div class="reaction">
+    <button onclick="red()"><i class="far fa-heart" onclick="red()"></i></button>
+    <button><i class="fas fa-share-nodes"></i></button>
+</div>
+</div>
+</div>
+<div class="cards">
+<div class="img">
+    <img src="../images/products/jeans4.jpg" alt="">
+</div>
+<h4>Rugged Jeans And Cool Belt</h4>
+<br>
+<p><strike>$900.00</strike>    <b>$700.00</b></p>
+<br>
+<div class="btn-holder">
+<button>Add To Cart</button>
+<div class="reaction">
+    <button onclick="red()"><i class="far fa-heart" onclick="red()"></i></button>
+    <button><i class="fas fa-share-nodes"></i></button>
+</div>
+</div>
+</div>
+<div class="cards">
+<div class="img">
+<img src="../images/products/jeans2.jpg" alt="">
+<div class="tag" id="closed">SOLD OUT</div>
+</div>
+<h4>Cool Jeans And Cowboy Boot</h4>
+<br>
+<p><strike>$850.00</strike>    <b>$600.00</b></p>
+<br>
+<div class="btn-holder">
+<button>Add To Cart</button>
+<div class="reaction">
+    <button onclick="red()"><i class="far fa-heart" onclick="red()"></i></button>
+    <button><i class="fas fa-share-nodes"></i></button>
+</div>
+</div>
+</div>
+</div>
+    </section>
+
+    <!-- SUBSCRIBE TO WEBSITE -->
+    <section class="subscribe">
+        <input type="email" name="email" id="email" placeholder="Email Address">
+        <br>
+        <button>Subscribe</button>
+    </section>
+    <section class="features">
+        <div class="part">
+            <div class="icon"><i class="far fa-clock-rotate-left" style="transform: scaleX(-1);"></i></div>
+            <br>
+            <h2>Future Patronizing</h2>
+        </div>
+        <div class="part">
+            <div class="icon"><i class="far fa-credit-card"></i></div>
+            <br>
+            <h2>Payment Options</h2>
+        </div>
+        <div class="part">
+            <div class="icon"><i class="far fa-cart-shopping-fast"></i></div>
+            <br>
+            <h2>Fast Delivery</h2>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p><i class="far fa-envelope"></i>   <b>Email Address:</b> shoppingspree32@page.com</p> 
+      <p><i class="fab fa-twitter"></i>   @shopper</p> 
+      <p><i class="fab fa-facebook"></i>   @shopper32</p> 
+      <p><i class="far fa-phone"></i>   555 555 555 5559</p> 
+
+    </footer>
+</body>
+
+</html>

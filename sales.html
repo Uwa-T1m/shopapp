@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="sales.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../pro/css/all.css">
+    <script src="./sales.js"></script>
+    <script src="./home.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wizard || Shopping || Sales</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="topnav">
+        <div class="logo">
+            <h3><i class="far fa-shopping-cart"></i> Shopper</h3>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="openNav()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <div class="list" id="mySidebar">
+            <a href="index.html">Home</a>
+            <a href="./abt.html">About</a>
+            <a href="./sales.html"  class="active">Deals</a>
+            <a href="#contact">Contact</a>
+            <i class="fa fa-times" id="close" onclick="closeNav()"></i>
+        </div>
+    </nav>
+    <!-- Hero -->
+    <section class="hero">
+        <div class="center">
+            <h1>Black Friday Is Finally Here!</h1>
+            <b>
+                <p> Get every product at 10% discount</p>
+            </b>
+            <br>
+            <a href="#black-friday"><button>SHOP NOW</button></a>
+        </div>
+    </section>
+
+
+    <section class="blakfri" id="black-friday">
+        <br><br>
+<div class="card-hold">
+<div class="cards">
+<div class="img">
+    <img src="jeans1.jpg" alt="">
+</div>
+<h4>Rugged Jeans And Sneakers</h4>
+<br>
+<p><strike>$1000.00</strike>    <b>$850.00</b></p>
+<br>
+<div class="btn-holder">
+    <button onclick="checkout()">Add To Cart</button>
+    <div class="reaction">
+        <button onclick="red()"><i class="far fa-heart" onclick="red()"></i></button>
+        <button><i class="fas fa-share-nodes"></i></button>
+    </div>
+</div>
+</div>
+<div class="cards">
+    <div class="img">
+        <img src="./jeans2.jpg" alt="">
+        <div class="tag">NEW</div>
+    </div>
+    <h4>Rugged Jeans And Cool Belt</h4>
+    <br>
+    <p><strike>$900.00</strike>    <b>$700.00</b></p>
+<br>
+<div class="btn-holder">
+    <button onclick="checkout()">Add To Cart</button>
+    <div class="reaction">
+        <button onclick="red()"><i class="far fa-heart" onclick="red()"></i></button>
+        <button><i class="fas fa-share-nodes"></i></button>
+    </div>
+</div>
+</div>
+<div class="cards">
+<div class="img">
+    <img src="./jeans3.jpg" alt="">
+    <div class="tag" id="closed">SOLD OUT</div>
+</div>
+<h4>Cool Jeans And Cowboy Boot</h4>
+<br>
+<p><strike>$850.00</strike>    <b>$600.00</b></p>
+<br>
+<div class="btn-holder">
+    <button onclick="checkout()">Add To Cart</button>
+    <div class="reaction">
+        <button onclick="red()"><i class="far fa-heart" onclick="red()"></i></button>
+        <button><i class="fas fa-share-nodes"></i></button>
+    </div>
+</div>
+</div>
+</div>
+
+<div class="card-hold" style="margin-top: 60px;">
+<div class="cards">
+<div class="img">
+    <img src="./jeans3.jpg" alt="">
+    <div class="tag">NEW</div>
+</div>
+<h4>Rugged Jeans And Sneakers</h4>
+<br>
+<p><strike>$1000.00</strike>    <b>$850.00</b></p>
+<br>
+<div class="btn-holder">
+<button onclick="checkout()">Add To Cart</button>
+<div class="reaction">
+    <button onclick="red()"><i class="far fa-heart" onclick="red()"></i></button>
+    <button><i class="fas fa-share-nodes"></i></button>
+</div>
+</div>
+</div>
+<div class="cards">
+<div class="img">
+    <img src="./jeans4.jpg" alt="">
+</div>
+<h4>Rugged Jeans And Cool Belt</h4>
+<br>
+<p><strike>$900.00</strike>    <b>$700.00</b></p>
+<br>
+<div class="btn-holder">
+<button onclick="checkout()">Add To Cart</button>
+<div class="reaction">
+    <button onclick="red()"><i class="far fa-heart" onclick="red()"></i></button>
+    <button><i class="fas fa-share-nodes"></i></button>
+</div>
+</div>
+</div>
+<div class="cards">
+<div class="img">
+<img src="./jeans2.jpg" alt="">
+<div class="tag" id="closed">SOLD OUT</div>
+</div>
+<h4>Cool Jeans And Cowboy Boot</h4>
+<br>
+<p><strike>$850.00</strike>    <b>$600.00</b></p>
+<br>
+<div class="btn-holder">
+<button onclick="checkout()">Add To Cart</button>
+<div class="reaction">
+    <button onclick="red()"><i class="far fa-heart" onclick="red()"></i></button>
+    <button><i class="fas fa-share-nodes"></i></button>
+</div>
+</div>
+</div>
+</div>
+
+<div class="card-hold" style="margin-top: 60px;">
+    <div class="cards">
+    <div class="img">
+        <img src="./jeans4.jpg" alt="">
+    </div>
+    <h4>Rugged Jeans And Sneakers</h4>
+    <br>
+    <p><strike>$1000.00</strike>    <b>$850.00</b></p>
+    <br>
+    <div class="btn-holder">
+    <button onclick="checkout()">Add To Cart</button>
+    <div class="reaction">
+        <button onclick="red()"><i class="far fa-heart" onclick="red()"></i></button>
+        <button><i class="fas fa-share-nodes"></i></button>
+    </div>
+    </div>
+    </div>
+    <div class="cards">
+    <div class="img">
+        <img src="./jeans2.jpg" alt="">
+    </div>
+    <h4>Rugged Jeans And Cool Belt</h4>
+    <br>
+    <p><strike>$900.00</strike>    <b>$700.00</b></p>
+    <br>
+    <div class="btn-holder">
+    <button onclick="checkout()">Add To Cart</button>
+    <div class="reaction">
+        <button onclick="red()"><i class="far fa-heart" onclick="red()"></i></button>
+        <button><i class="fas fa-share-nodes"></i></button>
+    </div>
+    </div>
+    </div>
+    <div class="cards">
+    <div class="img">
+    <img src="./jeans1.jpg" alt="">
+    </div>
+    <h4>Cool Jeans And Cowboy Boot</h4>
+    <br>
+    <p><strike>$850.00</strike>    <b>$600.00</b></p>
+    <br>
+    <div class="btn-holder">
+    <button onclick="checkout()">Add To Cart</button>
+    <div class="reaction">
+        <button onclick="red()"><i class="far fa-heart" onclick="red()"></i></button>
+        <button><i class="fas fa-share-nodes"></i></button>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <h1 style="padding-left: 16px; padding-top: 50px;">Newest Deals</h1>
+    <div class="card-hold" style="margin-top: 60px;">
+        <div class="cards">
+        <div class="img">
+            <img src="./jeans3.jpg" alt="">
+            <div class="tag">NEW</div>
+        </div>
+        <h4>Rugged Jeans And Sneakers</h4>
+        <br>
+        <p><strike>$1000.00</strike>    <b>$850.00</b></p>
+        <br>
+        <div class="btn-holder">
+        <button onclick="checkout()">Add To Cart</button>
+        <div class="reaction">
+            <button onclick="red()"><i class="far fa-heart" onclick="red()"></i></button>
+            <button><i class="fas fa-share-nodes"></i></button>
+        </div>
+        </div>
+        </div>
+        <div class="cards">
+        <div class="img">
+            <img src="./jeans4.jpg" alt="">
+        </div>
+        <h4>Rugged Jeans And Cool Belt</h4>
+        <br>
+        <p><strike>$900.00</strike>    <b>$700.00</b></p>
+        <br>
+        <div class="btn-holder">
+        <button onclick="checkout()">Add To Cart</button>
+        <div class="reaction">
+            <button onclick="red()"><i class="far fa-heart" onclick="red()"></i></button>
+            <button><i class="fas fa-share-nodes"></i></button>
+        </div>
+        </div>
+        </div>
+        <div class="cards">
+        <div class="img">
+        <img src="./jeans2.jpg" alt="">
+        <div class="tag">SALE</div>
+        </div>
+        <h4>Cool Jeans And Cowboy Boot</h4>
+        <br>
+        <p><strike>$850.00</strike>    <b>$600.00</b></p>
+        <br>
+        <div class="btn-holder">
+        <button onclick="checkout()">Add To Cart</button>
+        <div class="reaction">
+            <button onclick="red()"><i class="far fa-heart" onclick="red()"></i></button>
+            <button><i class="fas fa-share-nodes"></i></button>
+        </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="card-hold" style="margin-top: 60px;">
+            <div class="cards">
+            <div class="img">
+                <img src="./jeans3.jpg" alt="">
+                <div class="tag">NEW</div>
+            </div>
+            <h4>Rugged Jeans And Sneakers</h4>
+            <br>
+            <p><strike>$1000.00</strike>    <b>$850.00</b></p>
+            <br>
+            <div class="btn-holder">
+            <button onclick="checkout()">Add To Cart</button>
+            <div class="reaction">
+                <button onclick="red()"><i class="far fa-heart" onclick="red()"></i></button>
+                <button><i class="fas fa-share-nodes"></i></button>
+            </div>
+            </div>
+            </div>
+            <div class="cards">
+            <div class="img">
+                <img src="./jeans4.jpg" alt="">
+            </div>
+            <h4>Rugged Jeans And Cool Belt</h4>
+            <br>
+            <p><strike>$900.00</strike>    <b>$700.00</b></p>
+            <br>
+            <div class="btn-holder">
+            <button onclick="checkout()">Add To Cart</button>
+            <div class="reaction">
+                <button onclick="red()"><i class="far fa-heart" onclick="red()"></i></button>
+                <button><i class="fas fa-share-nodes"></i></button>
+            </div>
+            </div>
+            </div>
+            <div class="cards">
+            <div class="img">
+            <img src="./jeans2.jpg" alt="">
+            <div class="tag" id="closed">SOLD OUT</div>
+            </div>
+            <h4>Cool Jeans And Cowboy Boot</h4>
+            <br>
+            <p><strike>$850.00</strike>    <b>$600.00</b></p>
+            <br>
+            <div class="btn-holder">
+            <button onclick="checkout()">Add To Cart</button>
+            <div class="reaction">
+                <button onclick="red()"><i class="far fa-heart" onclick="red()"></i></button>
+                <button><i class="fas fa-share-nodes"></i></button>
+            </div>
+            </div>
+            </div>
+            </div>
+
+            <h1 style="padding-left: 16px; padding-top: 50px;">Coming Soon</h1>
+    <div class="card-hold" style="margin-top: 60px;">
+        <div class="cards">
+        <div class="img">
+            <img src="./jeans3.jpg" alt="">
+            <div class="tag">NEW</div>
+        </div>
+        <h4>Rugged Jeans And Sneakers</h4>
+        <br>
+        <p><strike>$1000.00</strike>    <b>$850.00</b></p>
+        <br>
+        <div class="btn-holder">
+        <button onclick="checkout()">Add To Cart</button>
+        <div class="reaction">
+            <button onclick="red()"><i class="far fa-heart" onclick="red()"></i></button>
+            <button><i class="fas fa-share-nodes"></i></button>
+        </div>
+        </div>
+        </div>
+        <div class="cards">
+        <div class="img">
+            <img src="./jeans4.jpg" alt="">
+        </div>
+        <h4>Rugged Jeans And Cool Belt</h4>
+        <br>
+        <p><strike>$900.00</strike>    <b>$700.00</b></p>
+        <br>
+        <div class="btn-holder">
+        <button onclick="checkout()">Add To Cart</button>
+        <div class="reaction">
+            <button onclick="red()"><i class="far fa-heart" onclick="red()"></i></button>
+            <button><i class="fas fa-share-nodes"></i></button>
+        </div>
+        </div>
+        </div>
+        <div class="cards">
+        <div class="img">
+        <img src="./jeans2.jpg" alt="">
+        <div class="tag">SALE</div>
+        </div>
+        <h4>Cool Jeans And Cowboy Boot</h4>
+        <br>
+        <p><strike>$850.00</strike>    <b>$600.00</b></p>
+        <br>
+        <div class="btn-holder">
+        <button onclick="checkout()">Add To Cart</button>
+        <div class="reaction">
+            <button onclick="red()"><i class="far fa-heart" onclick="red()"></i></button>
+            <button><i class="fas fa-share-nodes"></i></button>
+        </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="card-hold" style="margin-top: 60px;">
+            <div class="cards">
+            <div class="img">
+                <img src="./jeans3.jpg" alt="">
+                <div class="tag">NEW</div>
+            </div>
+            <h4>Rugged Jeans And Sneakers</h4>
+            <br>
+            <p><strike>$1000.00</strike>    <b>$850.00</b></p>
+            <br>
+            <div class="btn-holder">
+            <button onclick="checkout()">Add To Cart</button>
+            <div class="reaction">
+                <button onclick="red()"><i class="far fa-heart" onclick="red()"></i></button>
+                <button><i class="fas fa-share-nodes"></i></button>
+            </div>
+            </div>
+            </div>
+            <div class="cards">
+            <div class="img">
+                <img src="./jeans4.jpg" alt="">
+            </div>
+            <h4>Rugged Jeans And Cool Belt</h4>
+            <br>
+            <p><strike>$900.00</strike>    <b>$700.00</b></p>
+            <br>
+            <div class="btn-holder">
+            <button onclick="checkout()">Add To Cart</button>
+            <div class="reaction">
+                <button onclick="red()"><i class="far fa-heart" onclick="red()"></i></button>
+                <button><i class="fas fa-share-nodes"></i></button>
+            </div>
+            </div>
+            </div>
+            <div class="cards">
+            <div class="img">
+            <img src="./jeans2.jpg" alt="">
+            <div class="tag" id="closed">SOLD OUT</div>
+            </div>
+            <h4>Cool Jeans And Cowboy Boot</h4>
+            <br>
+            <p><strike>$850.00</strike>    <b>$600.00</b></p>
+            <br>
+            <div class="btn-holder">
+            <button onclick="checkout()">Add To Cart</button>
+            <div class="reaction">
+                <button onclick="red()"><i class="far fa-heart" onclick="red()"></i></button>
+                <button><i class="fas fa-share-nodes"></i></button>
+            </div>
+            </div>
+            </div>
+            </div>
+    </section>
+
+    <!--    SUBSCRIBE TO WEBSITE -->
+    <section class="subscribe">
+        <input type="email" name="email" id="email" placeholder="Email Address">
+        <br>
+        <button>Subscribe</button>
+    </section>
+
+    
+    <!-- FOOTER -->
+    <footer>
+        <p><i class="far fa-envelope"></i>   <b>Email Address:</b> shoppingspree32@page.com</p> 
+        <p><i class="fab fa-twitter"></i>   @shopper</p> 
+        <p><i class="fab fa-facebook"></i>   @shopper32</p> 
+        <p><i class="far fa-phone"></i>   555 555 555 5559</p> 
+  
+      </footer>
+</body>
+</html>
